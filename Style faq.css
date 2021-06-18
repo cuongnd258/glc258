@@ -1,0 +1,83 @@
+*{ margin: 0;padding: 0;box-sizing: border-box;}
+#container{
+    width: 100%;
+    margin: auto;
+    background-color: black;
+    font-family: 'Do Hyeon', sans-serif;
+    color: #ffff;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+nav ul li:hover .nav_line{
+    width: 100%;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0 12px;
+}
+
+nav ul li a{
+    color: rgb(253, 253, 253);
+    transition: 0.5s;
+}
+
+.nav_items{
+    margin-right: 10px;
+}
+.nav_line{
+    width: 0px;
+    height: 5px;
+    background-color: rgb(0, 17, 252);
+    position: relative;
+    top: 10px;
+    transition: 1s;
+}
+.nav_links li:hover a{
+    text-decoration: none;
+    color: rgb(0, 17, 252);
+
+}
+.onl .nav_line{
+    width: 100%;
+ }
+
+.faq{
+    text-align: center;
+    margin: 10px auto;
+}
+footer{
+    max-width: 96%;
+   
+     margin: 10px auto;
+     border-top: 1px solid white ;
+     text-align: left;
+     
+}
+
+
+.icon {text-align: center ;
+}
+
+.fa{
+    color: #ffff;
+    font-size: 25px;
+    margin-top: 10px;
+    
+}
+.nav-footer .ttf a{
+    color: #ffff;
+}.nav-footer .ttf {padding: 20px;
+}

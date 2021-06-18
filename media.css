@@ -1,0 +1,101 @@
+@media (max-width:767px) {
+    nav img{
+        width: 250px;
+    }
+    nav ul li {
+        padding: 0 8px;
+        font-size: 15px;
+    }
+    .nav_items li{
+        padding: 0 5px;
+        font-size: 15px;
+    }
+    footer{
+        font-size: 10px;
+    }
+    footer .fa{
+        color: #ffff;
+        font-size: 18px;
+        margin-top: 5px;
+
+
+    }
+   .qc a p{
+            font-size: 12px;
+        }
+    
+}
+@media (max-width:576px) {
+    nav img{
+        width: 120px;
+    }
+    nav ul li {
+        padding: 0 6px;
+        font-size: 12px;
+    }
+    .nav_items li{
+        padding: 0 3px;
+        font-size: 12px;
+    }
+    
+    footer{
+    }
+    footer .fa{
+        color: #ffff;
+        font-size: 15px;
+        margin-top: 4px;
+    }
+    .sign{      
+        height: 250px;
+        border-radius: 14px; 
+       }
+
+    .sign input{
+    font-size: 10px;    
+    }
+    .sign a{
+        margin: 10px 30px;
+    }
+    .sign button{
+        height: 40px;
+    }
+    .sign h2{
+        font-size: 20px;
+    }
+    
+    .faq{
+        font-size: 12px;
+        margin: 5px auto;
+    }
+    .row1 a{
+        font-size: 12px;
+    }
+
+    .search input{
+
+        margin-top: 6px;
+        width: 120px;
+        height: 18px;
+        font-size: 10px;
+    }
+   
+        .game img    {
+            width: 160px;
+        }
+        span{
+        font-size: 13px;
+        }
+        .qc a p{
+            font-size: 10px;
+        }
+        
+    
+}
+@media (max-width:960px){
+.game img    {
+    width: 160px;
+}
+span{
+font-size: 13px;
+}
+}

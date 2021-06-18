@@ -1,0 +1,234 @@
+*{ margin: 0;padding: 0;box-sizing: border-box;}
+#container{
+    width: 100%;
+    margin: auto;
+    background-color: black;
+    font-family: 'Do Hyeon', sans-serif;
+    color: #ffff;
+  ;
+}
+header nav{
+    width: 96%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+nav ul li:hover .nav_line{
+    width: 100%;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0 12px;
+}
+
+nav ul li a{
+    color: rgb(253, 253, 253);
+    transition: 0.5s;
+}
+
+.nav_items{
+    margin-right: 10px;
+}
+.nav_line{
+    width: 0px;
+    height: 5px;
+    background-color: rgb(0, 17, 252);
+    position: relative;
+    top: 10px;
+    transition: 1s;
+}
+.nav_links li:hover a{
+    text-decoration: none;
+    color: rgb(0, 17, 252);
+}
+
+.onl .nav_line{
+   width: 100%;
+}
+footer{
+    max-width: 96%;
+   
+     margin: 10px auto;
+     border-top: 1px solid white ;
+     text-align: left;
+     
+}
+
+
+.icon {text-align: center ;
+}
+
+.fa{
+    color: #ffff;
+    font-size: 25px;
+    margin-top: 10px;
+    
+}
+.nav-footer .ttf a{
+    color: #ffff;
+}.nav-footer .ttf {padding: 20px;
+}
+
+main{
+    width: 96%;
+    margin: 0 auto;
+}
+
+
+.banner img{
+    width: 100%;
+}
+.row1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+}
+.row1 a{
+    color: rgb(140, 140, 140);
+    text-decoration: none;
+    margin-right:10px;
+    
+}
+ .row1 a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.search input{
+ background-color: #0000;
+ border: solid 1px #ffff;
+ border-radius: 7px;
+ text-align: center;
+ margin: auto 0;
+
+}
+ .all-game{
+    padding-top:20px;
+}
+
+.game {
+   margin: 20px 0;
+    text-align: center; 
+     
+    
+}
+
+.game a{
+    color: rgb(163, 163, 163);
+    text-decoration: none;
+}
+.game a .trf{
+    margin: 10px auto;
+}
+
+.game a .trf  .image {
+    max-width: 100%;
+    overflow: hidden; 
+   
+   
+}
+.game a .trf  .image img{
+    transition: all 0.5s ease-in-out;
+}
+.game a .trf :hover img{
+    transform: scale(1.1);
+    opacity: 1;  
+    color: cornsilk;
+
+}
+.game a .trf  :hover { 
+    
+    color: cornsilk;
+}
+.game a{
+    color: rgb(163, 163, 163);
+    text-decoration: none;
+}
+.game a .trf{
+    margin: 10px auto;
+}
+
+.game a .trf  .image {
+    max-width: 100%;
+    overflow: hidden;   
+}
+.col-10 h3 a {
+    color: rgb(162, 162, 162);
+    text-decoration: none;
+}
+.col-10 h3 a :hover {
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+.themgame a .trf  .image img{
+    transition: all 0.5s ease-in-out;
+}
+.themgame a .trf :hover img{
+    transform: scale(1.1);
+    opacity: 1;  
+    color: cornsilk;
+
+}
+.themgame a .trf  :hover { 
+    
+    color: cornsilk;
+}
+.themgame a{
+    color: rgb(163, 163, 163);
+    text-decoration: none;
+}
+.themgame a .trf{
+    margin: 10px auto;
+}
+
+.themgame a .trf  .image img {
+    min-width: 95%;
+    padding-top: 10px;
+ 
+}
+.themgame a .trf .image  {
+
+    overflow: hidden; 
+  
+ 
+}
+.themgame a .trf   {
+    max-width: 80%;
+    background-color: rgb(68, 68, 68);  
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px auto;
+  
+}
+.themgame{
+    max-width: 96%;
+    margin: 0 auto;
+}
+h2{
+    text-align: center;
+}
+
+
+
+
+
+.qc img{
+    width: 100%;
+    
+}
